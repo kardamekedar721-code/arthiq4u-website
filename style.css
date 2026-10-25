@@ -1973,3 +1973,60 @@ body,
         animation: none;
     }
 }
+
+/* ArthIQ4U Privacy Policy */
+
+#privacy-policy {
+    max-width: 800px;
+    margin: 50px auto 30px;
+    padding: 35px 25px;
+    line-height: 1.8;
+    font-family: Arial, sans-serif;
+    color: inherit;
+    border-top: 1px solid rgba(128, 128, 128, 0.3);
+}
+
+#privacy-policy h2 {
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+#privacy-policy h3 {
+    font-size: 18px;
+    margin-top: 25px;
+    margin-bottom: 8px;
+}
+
+#privacy-policy p {
+    font-size: 15px;
+    margin-bottom: 14px;
+}
+
+#privacy-policy a {
+    color: #a88945;
+    text-decoration: underline;
+    overflow-wrap: anywhere;
+}
+
+#privacy-policy a:hover {
+    color: #80652e;
+}
+
+@media (max-width: 600px) {
+    #privacy-policy {
+        margin: 30px 15px 20px;
+        padding: 25px 10px;
+    }
+
+    #privacy-policy h2 {
+        font-size: 24px;
+    }
+
+    #privacy-policy h3 {
+        font-size: 17px;
+    }
+
+    #privacy-policy p {
+        font-size: 14px;
+    }
+}
